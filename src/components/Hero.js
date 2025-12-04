@@ -15,7 +15,7 @@ const Hero = ({ lang }) => {
       <h1>{t.name}</h1>
       <h4 className="text-warning">{t.title}</h4>
       <p>{t.subtitle}</p>
-      <a href="Abdelrahman Ahmed CV[2].docx" className="btn btn-warning mt-3" download>
+      <a href="Abdelrahman Ahmed CV[3].docx" className="btn btn-warning mt-3" download>
         {t.cv}
       </a>
     </div>
