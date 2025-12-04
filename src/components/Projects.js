@@ -6,21 +6,71 @@ const Projects = ({ lang }) => {
 
   const projects = [
     {
-      title: lang === 'ar' ? "نظام إدارة الفواتير" : "Invoice Management System",
-      tech: "Laravel + React.js + MySQL",
+      title: lang === 'ar' ? "المهران جروب" : "El Mahran-Group",
+      tech: "Laravel + MySQL + Dashboard",
       desc: lang === 'ar'
-        ? "نظام فواتير متكامل بواجهة تفاعلية، دعم للضرائب، الخصومات، وتخزين البيانات."
-        : "Full invoice system with UI, tax/discount logic, and database storage.",
-      link: "https://invoice-flax-six.vercel.app/"
+        ? "اونلاين ستور"
+        : "Online store",
+      link: "https://almahrangroup.com/en"
     },
     {
-      title: lang === 'ar' ? "منصة تجارة إلكترونية" : "E-Commerce Platform",
-      tech: "Laravel + AdminLTE",
+      title: lang === 'ar' ? "فوكس ميديكال" : "Fox midical",
+      tech: "Laravel + Admin Dashboard",
       desc: lang === 'ar'
-        ? "نظام بيع وشراء مع لوحة تحكم وإدارة المنتجات والمستخدمين."
-        : "Commerce system with dashboard, product and user management.",
+        ? "اونلاين ستور لبيع المنتجات الصحية"
+        : "Online store for selling health products",
+          link: "https://fox-medical.com/demo/en"
+    },
+
+    {
+      title: lang === 'ar' ? "شوكة وسكينة" : "Shshoka wskina",
+      tech: "Laravel + Admin Dashboard",
+      desc: lang === 'ar'
+        ? "اونلاين ستور لبيع الاجهزة المنزلية"
+        : "Online store for selling home appliances",
+      link: "http://shokawskina.com/ar"
     },
     {
+      title: lang === 'ar' ? "المصرية للافتات السترشادية" : "Egyptian Signage Company",
+      tech: "Laravel + Admin Dashboard",
+      desc: lang === 'ar'
+        ? "ويب سايت تعريفي عن شركة المصرية لتجارة اللافتات الارشادية"
+        : "Website introducing the Egyptian Company for Trading Directional Signs",
+      link: "http://shokawskina.com/ar"
+    },
+    {
+      title: lang === 'ar' ? "شركة ماسمب للاعمال المعمارية" : "Masmb Architectural Works Company",
+      tech: "Laravel + Admin Dashboard",
+      desc: lang === 'ar'
+        ? "ويب سايت تعريفي عن شركة ماسمب للاعمال المعمالرية"
+        : "Website introducing Masmab Construction Company",
+      link: "https://masmep.com/en"
+    },
+    {
+      title: lang === 'ar' ? "شركة بايك بلس" : "Pike Plus Company",
+      tech: "Laravel + Admin Dashboard",
+      desc: lang === 'ar'
+        ? "ويب سايت تعريفي عن شركة بايك بلس للتوصيل"
+        : "Website introducing the Pike Plus delivery company",
+      link: "https://bikepluslogistic.com/en"
+    },
+    {
+      title: lang === 'ar' ? "شركةالداساس" : "Dasas Company",
+      tech: "Laravel + Admin Dashboard",
+      desc: lang === 'ar'
+        ? "ويب سايت تعريفي عن شركةالداساس لقطع غيار السيارات"
+        : "Website introducing Al-Dasas Auto Parts Company",
+      link: "https://dasasautoparts.com/en"
+    },
+    {
+      title: lang === 'ar' ? "شركة باور تكنولوجي" : "Power Technology Company",
+      tech: "Laravel + Admin Dashboard",
+      desc: lang === 'ar'
+        ? "ويب سايت تعريفي عن شركة باور تكنولوجي  لصيانة المواتير"
+        : "Website introducing Power Technology Motor Maintenance Company",
+      link: "https://power-technology-system.com/en"
+    },
+        {
       title: lang === 'ar' ? "API لإدارة المدارس" : "School Management API",
       tech: "Laravel + Passport",
       desc: lang === 'ar'
@@ -28,14 +78,6 @@ const Projects = ({ lang }) => {
         : "RESTful API for school with user roles, student/class/task management.",
       link: "https://github.com/Abedlrhman14/School_Mangment"
     },
-    {
-      title: lang === 'ar' ? "صفحة هبوط لمحل صرافة" : "Currency Exchange Landing Page",
-      tech: "HTML + CSS + Bootstrap",
-      desc: lang === 'ar'
-        ? "صفحة هبوط عصرية ومتجاوبة تم تصميمها لمحل صرافة لعرض الخدمات ومعلومات التواصل."
-        : "Modern, responsive landing page built for a currency exchange business.",
-      link: "https://el-helal.vercel.app/"
-    }
   ];
 
   return (
